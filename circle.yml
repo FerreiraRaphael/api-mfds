@@ -10,9 +10,9 @@ dependencies:
   pre:
     - gem install bundler
 
-# test:
-#   post:
-#     - bundle exec rubocop
+test:
+  post:
+    - bundle exec rubocop
 
 deployment:
   homo:
