@@ -5,6 +5,6 @@ class Resource < ApplicationRecord
   private
 
   def my_favorite_message?
-    message == 'MDFS é show'
+    message == 'MFDS é show!'
   end
 end

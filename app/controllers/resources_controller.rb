@@ -39,7 +39,7 @@ class ResourcesController < ApplicationController
   def resource_params
     {
       name: resource_permited_params[:name],
-      message: 'MDFS é show'
+      message: 'MFDS é show!'
     }
   end
 
