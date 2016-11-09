@@ -5,6 +5,6 @@ class Resource < ApplicationRecord
   private
 
   def my_favorite_message?
-    message == 'MFDS é show!'
+    message == 'METODO E FERRAMENTAS DE DESENVOLVIMENTO DE SOFTWARE é show!'
   end
 end
