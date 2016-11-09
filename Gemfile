@@ -47,6 +47,13 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'sinatra', github: 'sinatra/sinatra', branch: 'master'
   gem 'mailcatcher'
+  gem 'database_cleaner'
+end
+
+group :test do
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'json_expressions'
+  gem 'json-schema'
 end
 
 group :development do
