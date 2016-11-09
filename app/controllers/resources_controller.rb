@@ -39,7 +39,7 @@ class ResourcesController < ApplicationController
   def resource_params
     {
       name: resource_permited_params[:name],
-      message: 'MFDS é show!'
+      message: 'METODO E FERRAMENTAS DE DESENVOLVIMENTO DE SOFTWARE é show!'
     }
   end
 
