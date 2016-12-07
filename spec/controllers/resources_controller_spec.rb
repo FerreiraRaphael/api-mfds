@@ -4,7 +4,7 @@ RSpec.describe ResourcesController, type: :controller do
   let(:valid_attributes) do
     {
       name: Faker::Internet.name,
-      message: 'METODO E FERRAMENTAS DE DESENVOLVIMENTO DE SOFTWARE é show!'
+      message: 'Seminario parte 2'
     }
   end
   describe 'GET index' do
@@ -53,7 +53,7 @@ RSpec.describe ResourcesController, type: :controller do
   describe 'MINHA MENSAGEM FAVORITA' do
     it 'TEM QUE ESTAR CERTA MANO !!!' do
       post :create, params: { name: Faker::Internet.name }
-      expect(assigns(:resource).message).to be_eql('METODO E FERRAMENTAS DE DESENVOLVIMENTO DE SOFTWARE é show!')
+      expect(assigns(:resource).message).to be_eql('Seminario parte 2')
     end
   end
 end

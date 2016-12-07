@@ -18,6 +18,7 @@ class ResourcesController < ApplicationController
 
   def update
     @resource.update(resource_params)
+
     render json: json_response(@resource)
   end
 
@@ -39,7 +40,7 @@ class ResourcesController < ApplicationController
   def resource_params
     {
       name: resource_permited_params[:name],
-      message: 'METODO E FERRAMENTAS DE DESENVOLVIMENTO DE SOFTWARE é show!'
+      message: 'Seminario parte 2'
     }
   end
 
